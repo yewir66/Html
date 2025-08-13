@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video background</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div>
+<video autoplay muted playsinline id="bg-video">
+    <source src="videos/Comp 1.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+<!-- this is the button-->
+<div>
+<title>Button Pressed Effect</title>
+</head>
+    <button id="button";>Click Me!</button>
+</div>
+
+
+  <script>
+    const video = document.getElementById('bg-video');
+    video.addEventListener('ended', function() {
+      video.pause();              
+      video.currentTime = video.duration; 
+    });
+  </script>
+<script src=".vscode\settings.json"></script>
+<script src="Js/script.js"></script>
+</body>
+
+<!--video id="scene">
+  <source src="videos\Cat Video.mp4" type="video/mp4">
+</video>
+
+
+  </body>
+</html>
+ 
