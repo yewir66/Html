@@ -5,40 +5,87 @@
   <title>Video background</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
 
-<div>
-<video autoplay muted playsinline id="bg-video">
+  
+  <video autoplay muted playsinline id="bg-video">
     <source src="videos/Comp 1.mp4" type="video/mp4">
   </video>
-</div>
 
+  
+  <button id="Next">
+    <img src="Gifs/Next.gif" alt="Next">
+  </button>
 
-<!-- this is the button-->
-<div>
-<title>Button Pressed Effect</title>
-</head>
-    <button id="button";>Click Me!</button>
-</div>
+  <button id="button2">
+    <img src="Gifs/Back.gif" alt="Back">
+  </button>
 
+  
+  <a id="indexButton" class="link-wrapper" href="https://www.youtube.com/@_yewir_9589">
+    <span class="fallback">Index</span>
+    <div class="img-wrapper">
+      <img class="normal" src="images/youtube txt.png">
+      <img class="active" src="images/youtube colored txt0.png">
+    </div>
+    <div class="shape-wrapper">
+      <div class="shape red-fill jelly">
+        <svg viewBox="0 0 108.1 47">
+          <polygon fill="#FF0000" points="29.5,8.5 150.7,0 108.1,32.7 3.1,47"/>
+        </svg>
+      </div>
+      <div class="shape cyan-fill jelly">
+        <svg viewBox="0 0 108.1 47">
+          <polygon fill="#00FFFF" points="0.3,17 125.1,0 68.8,45.6 24.3,39"/>
+        </svg>
+      </div>
+    </div>
+  </a>
 
-  <script>
-    const video = document.getElementById('bg-video');
-    video.addEventListener('ended', function() {
-      video.pause();              
-      video.currentTime = video.duration; 
-    });
-  </script>
-<script src=".vscode\settings.json"></script>
-<script src="Js/script.js"></script>
+  
+  <a id="tiktokButton" class="link-wrapper" href="https://www.tiktok.com/@yewir">
+    <span class="fallback">TikTok</span>
+    <div class="img-wrapper">
+      <img class="normal" src="images/Tiktok00.png" alt="TikTok Text">
+      <img class="active" src="images/Tiktok00.png" alt="TikTok Colored Text">
+    </div>
+    <div class="shape-wrapper">
+      <div class="shape red-fill jelly">
+        <svg viewBox="0 0 108.1 47">
+          <polygon fill="#FF0000" points="29.5,8.5 150.7,0 108.1,32.7 3.1,47"/>
+        </svg>
+      </div>
+      <div class="shape cyan-fill jelly">
+        <svg viewBox="0 0 108.1 47">
+          <polygon fill="#00FFFF" points="0.3,17 125.1,0 68.8,45.6 24.3,39"/>
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  
+
+  <a id="EmailButton" class="link-wrapper" href="https://www.tiktok.com/@yewir">
+    <span class="fallback">TikTok</span>
+    <div class="img-wrapper">
+      <img class="normal" src="images/Tiktok00.png" alt="TikTok Text">
+      <img class="active" src="images/Tiktok00.png" alt="TikTok Colored Text">
+    </div>
+    <div class="shape-wrapper">
+      <div class="shape red-fill jelly">
+        <svg viewBox="0 0 108.1 47">
+          <polygon fill="#FF0000" points="29.5,8.5 150.7,0 108.1,32.7 3.1,47"/>
+        </svg>
+      </div>
+      <div class="shape cyan-fill jelly">
+        <svg viewBox="0 0 108.1 47">
+          <polygon fill="#00FFFF" points="0.3,17 125.1,0 68.8,45.6 24.3,39"/>
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  
+  <script src="Js/script.js"></script>
 </body>
-
-<!--video id="scene">
-  <source src="videos\Cat Video.mp4" type="video/mp4">
-</video>
-
-
-  </body>
 </html>
- 
