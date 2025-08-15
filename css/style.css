@@ -247,8 +247,22 @@ html, body {
   z-index: 1000;
 }
 
-.fallback {
+#EmailButton {
     position: fixed;
+    top: 355px;
+    left: 210px; 
+    transform: scale(4);
+    transform-origin: top left;
+    z-index: 1000;
+}
+
+#AboutButton {
+    position: fixed;
+    top: 450px;
+    left: 210px; 
+    transform: scale(4);
+    transform-origin: top left;
+    z-index: 1000;
 }
 
 
